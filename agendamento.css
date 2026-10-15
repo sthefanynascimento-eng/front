@@ -1,0 +1,51 @@
+*{
+    margin: 0;    
+    box-sizing: border-box; 
+}  
+
+body {
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background-image: url(img/fundo-list.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo{
+    width: 80px;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    padding-left: 40px ;
+    justify-content: space-between;
+}
+
+.menu{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.menu a:hover{
+    color: rgb(88, 9, 179);
+}
+
+.table{
+    margin: 45px;
+    background-color: rgb(18, 18, 18);
+    display: flex;
+    justify-content: space-evenly;
+}
